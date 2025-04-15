@@ -1,5 +1,6 @@
 
 import './App.css';
+import Collection from './Collection';
 import GreatCoffe from './GreatCoffe';
 import Header from './Header';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       <GreatCoffe/>
+      <Collection/>
     </div>
   );
 }
